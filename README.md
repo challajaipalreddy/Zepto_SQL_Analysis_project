@@ -63,7 +63,7 @@ CREATE TABLE zepto (
 - Compared in-stock vs out-of-stock products
 
 ---
-# 4️⃣ Data Cleaning
+## 4️⃣ Data Cleaning
 - Removed rows with MRP = 0 or discountedSellingPrice = 0.
 
 - Converted mrp and discountedSellingPrice from paise to rupees
@@ -83,27 +83,27 @@ SET mrp = mrp / 100.0,
 
 ---
 ## 📁 Repository Structure
-
+```
 zepto-sql-data-analyst-project/
 ├── zepto_v2.csv                 # (You already uploaded this)
 ├── zepto_schema.sql             # Table creation and import script placeholder
 ├── zepto_queries.sql            # All 40+ business queries placeholder
 ├── zepto_analysis_summary.pdf   # Empty placeholder PDF
 ├── README.md                    # Project description starter
+```
+---
+---
+### 🔗 Project Link
+### 📂 GitHub: []
+### 🔗 [Follow on LinkedIn](linkedin.com/in/challa-jaipal-reddy-6a03062a3)
+---
+### 👨‍💻 Author
+###  Challa Jaipal Reddy
+### Data Analyst | SQL | E-commerce Analytics
+### 📩 Your LinkedIn(linkedin.com/in/challa-jaipal-reddy-6a03062a3)
+---
 
----
----
-## 🔗 Project Link
-## 📂 GitHub: []
-## 🔗 [Follow on LinkedIn](linkedin.com/in/challa-jaipal-reddy-6a03062a3)
----
-## 👨‍💻 Author
-##  Challa Jaipal Reddy
-## Data Analyst | SQL | E-commerce Analytics
-## 📩 Your LinkedIn(linkedin.com/in/challa-jaipal-reddy-6a03062a3)
----
-
-## 📜 License
+### 📜 License
   - This project is licensed under the MIT License — use, modify, or share freely for learning purposes.
 
 
