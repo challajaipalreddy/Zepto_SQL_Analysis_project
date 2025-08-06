@@ -66,9 +66,9 @@ Compared in-stock vs out-of-stock products
 
 
 # 4️⃣ Data Cleaning
-Removed rows with MRP = 0 or discountedSellingPrice = 0.
+- Removed rows with MRP = 0 or discountedSellingPrice = 0.
 
-Converted mrp and discountedSellingPrice from paise to rupees
+- Converted mrp and discountedSellingPrice from paise to rupees
 ```sql
 UPDATE zepto
 SET mrp = mrp / 100.0,
@@ -77,13 +77,54 @@ SET mrp = mrp / 100.0,
 
 ```
 ##💼 How to Use This Project
-Clone the repository
+- Clone the repository
+- Open the .sql file in pgAdmin / DBeaver
+- Import the dataset using \copy or pgAdmin's import GUI
+- Run each section: creation → cleaning → analysis
 
-Open the .sql file in pgAdmin / DBeaver
 
-Import the dataset using \copy or pgAdmin's import GUI
+# 📁 Repository Structure
 
-Run each section: creation → cleaning → analysis
+zepto-sql-data-analyst-project/
+│
+├── zepto_v2.csv                  # Dataset
+├── zepto_schema.sql             # Table creation + import
+├── zepto_queries.sql            # All 40+ business queries
+├── zepto_analysis_summary.pdf   # Optional: PDF version of report
+├── README.md                    # This file
 
+
+
+# 🔗 Project Link
+## 📂 GitHub: []
+## 🔗 LinkedIn Post: [linkedin.com/in/challa-jaipal-reddy-6a03062a3]
+
+# 👨‍💻 Author
+##  Challa Jaipal Reddy
+## Data Analyst | SQL | E-commerce Analytics
+## 📩 Your LinkedIn[linkedin.com/in/challa-jaipal-reddy-6a03062a3]
+
+
+# 📜 License
+  - This project is licensed under the MIT License — use, modify, or share freely for learning purposes.
+
+
+
+
+---
+
+## 🚀 What's Next?
+
+1. ✅ Confirm this README is good — I’ll generate `zepto_schema.sql` and `zepto_queries.sql` files for GitHub.
+2. ✅ I can generate your LinkedIn post content too.
+3. ✅ I can zip the whole repo contents for you to upload to GitHub directly.
+
+Would you like me to proceed with:
+- `README.md`
+- `.sql` files
+- `.pdf` report
+- or everything as a ready-to-upload ZIP?
+
+Let me know!
 
 
