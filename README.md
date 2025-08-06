@@ -65,10 +65,25 @@ Found duplicate product names
 Compared in-stock vs out-of-stock products
 
 
-##4️⃣ Data Cleaning
-Removed rows with MRP = 0 or discountedSellingPrice = 0
+# 4️⃣ Data Cleaning
+Removed rows with MRP = 0 or discountedSellingPrice = 0.
+
 Converted mrp and discountedSellingPrice from paise to rupees
 ```sql
 UPDATE zepto
 SET mrp = mrp / 100.0,
     discountedSellingPrice = discountedSellingPrice / 100.0;
+
+
+```
+##💼 How to Use This Project
+Clone the repository
+
+Open the .sql file in pgAdmin / DBeaver
+
+Import the dataset using \copy or pgAdmin's import GUI
+
+Run each section: creation → cleaning → analysis
+
+
+
