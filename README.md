@@ -72,36 +72,35 @@ SET mrp = mrp / 100.0,
 
 
 ```
-##💼 How to Use This Project
+## 💼 How to Use This Project
 - Clone the repository
 - Open the .sql file in pgAdmin / DBeaver
 - Import the dataset using \copy or pgAdmin's import GUI
 - Run each section: creation → cleaning → analysis
 
 ---
-# 📁 Repository Structure
+## 📁 Repository Structure
 
 zepto-sql-data-analyst-project/
-│
-├── zepto_v2.csv                  # Dataset
-├── zepto_schema.sql             # Table creation + import
-├── zepto_queries.sql            # All 40+ business queries
-├── zepto_analysis_summary.pdf   # Optional: PDF version of report
-├── README.md                    # This file
+├── zepto_v2.csv                 # (You already uploaded this)
+├── zepto_schema.sql             # Table creation and import script placeholder
+├── zepto_queries.sql            # All 40+ business queries placeholder
+├── zepto_analysis_summary.pdf   # Empty placeholder PDF
+├── README.md                    # Project description starter
 
 ---
 
-# 🔗 Project Link
+## 🔗 Project Link
 ## 📂 GitHub: []
 ## 🔗 LinkedIn Post: [linkedin.com/in/challa-jaipal-reddy-6a03062a3]
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 ##  Challa Jaipal Reddy
 ## Data Analyst | SQL | E-commerce Analytics
 ## 📩 Your LinkedIn[linkedin.com/in/challa-jaipal-reddy-6a03062a3]
 
 
-# 📜 License
+## 📜 License
   - This project is licensed under the MIT License — use, modify, or share freely for learning purposes.
 
 
