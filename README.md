@@ -51,7 +51,19 @@ CREATE TABLE zepto (
 );
 
 
-#2.Data Import
+### 2️⃣ Data Import
 \copy zepto(category, name, mrp, discountPercent, availableQuantity,
             discountedSellingPrice, weightInGms, outOfStock, quantity)
 FROM 'data/zepto_v2.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',', QUOTE '"', ENCODING 'UTF8');
+
+
+### 3️⃣ Data Exploration
+Checked null values and schema
+
+Counted total rows
+
+Identified distinct product categories
+
+Found duplicate product names
+
+Compared in-stock vs out-of-stock products
