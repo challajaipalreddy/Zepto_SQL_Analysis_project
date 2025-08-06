@@ -51,8 +51,10 @@ CREATE TABLE zepto (
 );
 
 ```
+---
 ## 2️⃣ Data Import
 <pre><code> \copy zepto(category, name, mrp, discountPercent, availableQuantity, discountedSellingPrice, weightInGms, outOfStock, quantity) FROM 'data/zepto_v2.csv' WITH ( FORMAT csv, HEADER true, DELIMITER ',', QUOTE '"', ENCODING 'UTF8' ); </code></pre>
+---
 ## 3️⃣ Data Exploration
 - Checked null values and schema
 - Counted total rows
@@ -60,7 +62,7 @@ CREATE TABLE zepto (
 - Found duplicate product names
 - Compared in-stock vs out-of-stock products
 
-
+---
 # 4️⃣ Data Cleaning
 - Removed rows with MRP = 0 or discountedSellingPrice = 0.
 
@@ -72,6 +74,7 @@ SET mrp = mrp / 100.0,
 
 
 ```
+---
 ## 💼 How to Use This Project
 - Clone the repository
 - Open the .sql file in pgAdmin / DBeaver
@@ -89,16 +92,16 @@ zepto-sql-data-analyst-project/
 ├── README.md                    # Project description starter
 
 ---
-
+---
 ## 🔗 Project Link
 ## 📂 GitHub: []
-## 🔗 LinkedIn Post: [linkedin.com/in/challa-jaipal-reddy-6a03062a3]
-
+## 🔗 [Follow on LinkedIn](linkedin.com/in/challa-jaipal-reddy-6a03062a3)
+---
 ## 👨‍💻 Author
 ##  Challa Jaipal Reddy
 ## Data Analyst | SQL | E-commerce Analytics
-## 📩 Your LinkedIn[linkedin.com/in/challa-jaipal-reddy-6a03062a3]
-
+## 📩 Your LinkedIn(linkedin.com/in/challa-jaipal-reddy-6a03062a3)
+---
 
 ## 📜 License
   - This project is licensed under the MIT License — use, modify, or share freely for learning purposes.
