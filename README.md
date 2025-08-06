@@ -59,11 +59,16 @@ FROM 'data/zepto_v2.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',', QUOTE '"'
 
 ## 3️⃣ Data Exploration
 Checked null values and schema
-
 Counted total rows
-
 Identified distinct product categories
-
 Found duplicate product names
-
 Compared in-stock vs out-of-stock products
+
+
+##4️⃣ Data Cleaning
+Removed rows with MRP = 0 or discountedSellingPrice = 0
+Converted mrp and discountedSellingPrice from paise to rupees
+```sql
+UPDATE zepto
+SET mrp = mrp / 100.0,
+    discountedSellingPrice = discountedSellingPrice / 100.0;
