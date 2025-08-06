@@ -82,7 +82,7 @@ SET mrp = mrp / 100.0,
 - Import the dataset using \copy or pgAdmin's import GUI
 - Run each section: creation → cleaning → analysis
 
-
+---
 # 📁 Repository Structure
 
 zepto-sql-data-analyst-project/
@@ -93,7 +93,7 @@ zepto-sql-data-analyst-project/
 ├── zepto_analysis_summary.pdf   # Optional: PDF version of report
 ├── README.md                    # This file
 
-
+---
 
 # 🔗 Project Link
 ## 📂 GitHub: []
