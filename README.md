@@ -93,14 +93,14 @@ zepto-sql-data-analyst-project/
 ```
 ---
 ---
-### 🔗 Project Link
-### 📂 GitHub: []
-### 🔗 [Follow on LinkedIn](linkedin.com/in/challa-jaipal-reddy-6a03062a3)
+
+### 📂 - GitHub: []
+### 🔗 - [Follow on LinkedIn](linkedin.com/in/challa-jaipal-reddy-6a03062a3)
 ---
 ### 👨‍💻 Author
-###  Challa Jaipal Reddy
-### Data Analyst | SQL | E-commerce Analytics
-### 📩 Your LinkedIn(linkedin.com/in/challa-jaipal-reddy-6a03062a3)
+###  - Challa Jaipal Reddy
+###  - Data Analyst | SQL | E-commerce Analytics
+### - 📩 Your LinkedIn(linkedin.com/in/challa-jaipal-reddy-6a03062a3)
 ---
 
 ### 📜 License
