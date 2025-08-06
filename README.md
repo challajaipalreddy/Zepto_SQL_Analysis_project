@@ -49,7 +49,7 @@ CREATE TABLE zepto (
   outOfStock BOOLEAN,
   quantity INTEGER
 );
-
+##
 
 ### 2️⃣ Data Import
 \copy zepto(category, name, mrp, discountPercent, availableQuantity,
