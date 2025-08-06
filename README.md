@@ -52,11 +52,7 @@ CREATE TABLE zepto (
 
 ```
 ## 2️⃣ Data Import
-\copy zepto(category, name, mrp, discountPercent, availableQuantity,
-            discountedSellingPrice, weightInGms, outOfStock, quantity)
-FROM 'data/zepto_v2.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',', QUOTE '"', ENCODING 'UTF8');
-
-
+<pre><code> \copy zepto(category, name, mrp, discountPercent, availableQuantity, discountedSellingPrice, weightInGms, outOfStock, quantity) FROM 'data/zepto_v2.csv' WITH ( FORMAT csv, HEADER true, DELIMITER ',', QUOTE '"', ENCODING 'UTF8' ); </code></pre>
 ## 3️⃣ Data Exploration
 Checked null values and schema
 Counted total rows
